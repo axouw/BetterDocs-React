@@ -1,0 +1,53 @@
+// META {"name": "NotAnotherAnimeThemeDCSL", "description": "Le thème de l'anime créé par puckzxz # 2080 et Quake # 1470, assurez-vous d'être à jour sur https://goo.gl/jfR9BS, Obtenir de l'aide. ici https://discord.gg/FdZhbjY","author":"puckzxz#2080 & Quake # 1470 "," version ":" 2.0 "} * // {}
+@import url (https://8xs4qxklp8.execute-api.us-east-2.amazonaws.com/release/gorawgit?giturl=/puckzxz/NotAnotherAnimeTheme/master/css/dcsl.css);
+
+
+/ * Pour faciliter la modification de ce thème, je vous recommande d’utiliser Notepad ++, vous pouvez le télécharger gratuitement ici: https://notepad-plus-plus.org/download/ * /
+
+
+/ * Toute image que vous utilisez DOIT se terminer par .jpg ou .png ou par toute autre extension d'image * /
+/ * Ceci n'est PAS un lien valide, https://imgur.com/a/ycjL2 * /
+/ * CECI EST UN LIEN VALIDE https://i.imgur.com/rCqnrQ7.jpg * /
+
+/ * Si vous trouvez une image, je vous recommande vivement de la ré-héberger sur imgur https://imgur.com/upload * /
+
+
+:racine {
+    / * Éditez ceci pour changer votre arrière-plan * /
+    --background-image: url (https://i.imgur.com/j1Z6HVc.jpg); / * le format est l'URL (URL IMAGE ICI) * /
+    / * Modifier ceci pour changer les images de vos amis image, image * /
+    --friends-icon: url (https://lh3.googleusercontent.com/a-/AAuE7mBblKIP-gibOsQEwrfGeQqqCVP7420c-3yn9-cJOw=s192); / * le format est l'URL (URL IMAGE ICI) * /
+    / * Modifier ceci pour changer l'image de votre icône d'amis, position * /
+    --friends-icon-position: centre centre; / * défaut: centre centre * /
+    / * Modifier ceci pour changer l'image de l'icône de vos amis, zoom * /
+    --friends-icon-zoom: 100%; / * défaut: 100% * /
+    / * Changer la couleur principale * /
+    - couleur principale: RGB (67, 181, 129); / * défaut: rgb (67, 181, 129); * /
+    / * Chande transparence globale * /
+    - transparence principale: rgba (0, 0, 0, 0,8); / * défaut: rgba (0, 0, 0, 0.8); * /
+
+    / * Change l'animation du serveur non lu. Remplacez-le par "none" afin de supprimer toute animation * /
+    --unread-server-animation: rainbow;
+    / * Changer la couleur de fond lorsque vous survolez des membres ou des amis * /
+    --hover-list-bg-color: rgba (255,255,255, 0,15); / * défaut: rgba (255,255,255, .15) * /
+    / * Change la couleur des minuscules bordures * /
+    --border-lines-color: hsla (0,0%, 100%, 1); / * défaut: hsla (0,0%, 100% ,. 1); * /
+    / * Modifier l'apparence de la couleur de la barre de défilement * /
+    - barre de défilement-couleur: rgba (255,255,255, 0,15); / * défaut: rgba (255,255,255, .15); * /
+
+    / * Changer la taille de la police des messages de discussion, vous pouvez utiliser n’importe quelle unité: px, em, rem,%, etc. * /
+    --font-size: 16px; / * défaut: 16px * /
+    / * Modifier ceci pour changer la couleur d'un texte sélectionné ou d'une jointure vocale * /
+    --selected-text-voice-color: # f6f6f7; / * défaut: # f6f6f7 * /
+    / * Modifier ceci pour changer la couleur lorsque vous survolez un canal de texte * /
+    --text-hover-color: # b9bbbe; / * défaut: # b9bbbe * /
+    / * Modifier ceci pour changer la couleur lorsque vous survolez un canal vocal * /
+    --voice-hover-color: # f6f6f7; / * défaut: # f6f6f7 * /
+    / * Modifier ceci pour changer la couleur d'une couleur de canal de texte non lu * /
+    --unread-text-color: #dcddde; / * défaut: #dcddde * /
+    
+    / * Ecrivez "transparent" pour que les options aient le même aspect que le thème * /
+    --options-transparence: transparente; / * défaut: # 2f3136 * /
+}
+
+/ * AJOUTEZ LE CODE CI-DESSOUS POUR PERSONNALISER LE THÈME * /
